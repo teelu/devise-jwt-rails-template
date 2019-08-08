@@ -1,24 +1,23 @@
-# README
+# Devise JWT API Template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Following Adam Mazurs medium [article](https://medium.com/@mazik.wyry/rails-5-api-jwt-setup-in-minutes-using-devise-71670fd4ed03).
 
-Things you may want to cover:
+This project uses Ruby 2.6.3 and Rails 5.2.3.
 
-* Ruby version
+## Install
 
-* System dependencies
+1. clone the repo
 
-* Configuration
+   `$ git clone https://github.com/teelu/devise-jwt-rails-template.git`
 
-* Database creation
+2. Install Dependencies
+   
+   `$ bundle install`
 
-* Database initialization
+3. Setup DB
 
-* How to run the test suite
+   `$ rails db:setup`
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4. Run rspec to ensure tests pass
+   
+   `$ rspec`
