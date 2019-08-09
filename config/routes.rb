@@ -10,5 +10,7 @@ Rails.application.routes.draw do
                sessions: 'sessions',
                registrations: 'registrations'
              }
+
+  get '/test_authentication', to: 'test_authentication#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
